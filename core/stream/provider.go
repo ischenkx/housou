@@ -1,6 +1,8 @@
 package stream
 
-import "context"
+import (
+	"context"
+)
 
 type Provider interface {
 	Streams(ctx context.Context) <-chan Stream

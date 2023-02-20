@@ -1,4 +1,4 @@
-package kizuna
+package housou
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 
 type Topic struct {
 	id     string
-	kizuna *Kizuna
+	kizuna *Housou
 }
 
 func (topic Topic) Subscribe(ctx context.Context, streamID string) error {

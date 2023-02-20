@@ -1,4 +1,4 @@
-package kizuna
+package housou
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 )
 
 type Client struct {
-	kizuna *Kizuna
+	kizuna *Housou
 	id     string
 }
 
